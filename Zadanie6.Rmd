@@ -1,0 +1,52 @@
+---
+title: "Malediwy"
+author: "Paula Jarosz"
+date: "23 maja 2018"
+output:
+  rmarkdown::html_document:
+    theme: united
+
+### Malediwy
+
+##### To archipelag oraz państwo wyspiarskie o tej samej nazwie, położone na Oceanie Indyjskim, ok. 500 km na południowy zachód od południowego krańca Indii.
+
+![](http://usig.pt/wp-content/uploads/2017/06/maldivas.jpg)
+
+
+| Zapytanie | Informacja |
+|-------------|-----------------|
+| Czas podróży | przelot z 1 przesiadką min. 13 h 30 min.|
+| Języki | 	malediwski (dhivehi), angielski|
+| Waluta | rupia malediwska (MVR)|
+
+  
+
+#### Główne atrakcje na Malediwach:
+  
+  1. Przede wszystkim piękna natura i krajobrazy:
+    
+    * rajskie krajobrazy
+    * piękne plaży z szeroką linią brzegową
+    
+    
+  2. Oczywiście kulturowym centrum jest stolica kraju, miasto **Male**. Znajdziemy tu zatem siedemnastowieczny Meczet Piątkowy o ścianach z morskiego koralu i złotej kopule. W grobowcach meczetu są pochowani najwięksi bohaterowie narodowi Malediwów.
+  
+  3. Najciekawsze miejsca Malediwów to jednak przede wszystkim malownicze _**rafy koralowe**_, dla których turyści z całego świata odwiedzają ten rajski archipelag wysp. 
+
+  4. Możliwość uprawianie sportów wodnych: żeglowania, jazdy na nartach wodnych, wędkarstwa, a przede wszystkim nurkowania i snorkelingu.
+  
+  #### Codechunki
+  
+```{r}
+library (tidyverse)
+filter (mpg, cty > 0)
+```
+  
+```{r}
+
+library(tidyverse)
+
+ggplot(data = mpg) +
+  geom_point(mapping = aes (x = displ, y = cty))
+```
+
